@@ -78,14 +78,5 @@ categories.forEach((category) => {
   overflow: auto;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 40%, #1F2937 100%);
   position: relative;
-
-
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 8rem;
-  }
 }
 </style>
